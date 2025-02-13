@@ -10,7 +10,7 @@ document.getElementById("btnNo").addEventListener("mouseover", function () {
 document.getElementById("btnSi").addEventListener("click", function () {
   Swal.fire({
     position: "top-center",
-    title: "Sabia que ibas a aceptar 😏",
+    title: "Sabia que ibas a aceptar",
     showConfirmButton: false,
     timer: 1500,
   });
